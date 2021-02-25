@@ -2,9 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#020202"
+    android:background="#4F594F"
     android:padding="10dp">
 
     <ImageView
@@ -23,7 +24,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="15dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textColor="#FFFFFF"
+        android:textColor="#DDDDF6"
         android:textSize="24sp"
         tools:text="Wonder Woman The Little Things" />
 
@@ -35,6 +36,6 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="25dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textColor="#BDB8B8"
+        android:textColor="#c2cbb4"
         tools:text="Deputy Sheriff Joe \&quot;Deke\&quot; Deacon joins forces with Sgt. Jim Baxter to search for a serial killer who's terrorizing Los Angeles. As they track the culprit, Baxter is unaware that the investigation is dredging up echoes of Deke's past, uncovering disturbing secrets that could threaten more than his case." />
 </RelativeLayout>
